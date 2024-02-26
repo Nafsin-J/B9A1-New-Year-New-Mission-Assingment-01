@@ -144,10 +144,167 @@
 }
 
 /* party poster */
-.party{
+.party {
     position: relative;
 
 }
-.party-gradient{
-    background-color: #070211;
+
+.party-image {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.party-gradient {
+    width: 1320px;
+    height: 600px;
+
+    border-radius: 16px;
+    display: block;
+    margin-left: 233px;
+    margin-right: 0;
+    background-image: linear-gradient(to right, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    position: absolute;
+    opacity: 0.5;
+}
+
+.party-icon {
+    position: absolute;
+    width: 320px;
+    height: 465px;
+    top: 65px;
+    padding-left: 1040px;
+    padding-right: 300px;
+}
+
+.party-welcome {
+    position: absolute;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+
+    top: 70px;
+    padding-left: 400px;
+    padding-right: 700px;
+
+}
+
+.party-details {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Inter;
+    font-size: 18px;
+    top: 290px;
+    padding-left: 400px;
+    padding-right: 700px;
+
+}
+
+.party-join {
+    position: absolute;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    top: 380px;
+    padding-left: 400px;
+    padding-right: 700px;
+}
+
+/* add place-time */
+.place-time-gradient {
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: 233px;
+    margin-right: 0;
+    margin-top: 120px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.black {
+    color: #070211;
+}
+
+.place {
+    position: absolute;
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+    margin-top: 120px;
+    margin-left: 450px;
+    margin-right: 700;
+}
+
+.date {
+    position: absolute;
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+    margin-top: 170px;
+    margin-left: 400px;
+    margin-right: 700;
+}
+
+.time {
+    position: absolute;
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+    margin-top: 220px;
+    margin-left: 370px;
+    margin-right: 700;
+}
+
+.join-btn {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border-width: 0;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-top: 350px;
+    margin-left: 550px;
+    margin-right: 500px;
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+.coming-soon-img {
+    margin-top: 120px;
+    display: block;
+    margin-left: 620px;
 }
